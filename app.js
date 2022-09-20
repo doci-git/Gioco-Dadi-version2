@@ -14,6 +14,13 @@ const foto = {
     foto4: '/img/dice4.png',
     foto5: '/img/dice5.png',
     foto6: '/img/dice6.png',
+    const foto1 = {
+    foto1: '/img/dice1.png',
+    foto2: '/img/dice2.png',
+    foto3: '/img/dice3.png',
+    foto4: '/img/dice4.png',
+    foto5: '/img/dice5.png',
+    foto6: '/img/dice6.png',
 }*/
 // add event to button
 buttons, addEventListener('click', function name() {
