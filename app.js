@@ -1,9 +1,9 @@
 //select the button
 const buttons = document.getElementById('#btn');
 // create an array
-const number = ["/img/dice1.png", '/img/dice2.png', '/img/dice3.png', '/img/dice4.png', '/img/dice5.png', '/img/dice6.png', ];
+const number = ["img/dice1.png", 'img/dice2.png', 'img/dice3.png', 'img/dice4.png', 'img/dice5.png', 'img/dice6.png', ];
 
-const number2 = ['/img/dice1.png', '/img/dice2.png', '/img/dice3.png', '/img/dice4.png', '/img/dice5.png', '/img/dice6.png', ];
+const number2 = ['img/dice1.png', 'img/dice2.png', 'img/dice3.png', 'img/dice4.png', 'img/dice5.png', 'img/dice6.png', ];
  // created an object with foto to to make some test also
 /*
 done with succes to acces the object same as the array
