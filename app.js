@@ -36,7 +36,7 @@ buttons, addEventListener('click', function name() {
     if (div > div2) {
         setTimeout(() => {
             document.querySelector('h1').innerHTML = 'player  <span>1</span> win';
-            let audio = new Audio('');
+            let audio = new Audio('./sounds/win-efect.wav');
             audio.play();
         }, 2000);
         
@@ -44,7 +44,7 @@ buttons, addEventListener('click', function name() {
     else if (div < div2) {
         setTimeout(() => {
             document.querySelector('h1').innerHTML = 'player  <span>2</span> win';
-            let audio = new Audio('');
+            let audio = new Audio('./sounds/win-efect.wav');
             audio.play();
         }, 2000);
     } 
@@ -55,7 +55,8 @@ buttons, addEventListener('click', function name() {
     }
     //console.log(div, div2)
 
-
+    let audio = new Audio('./sounds/button-efect.wav');
+    audio.play();
     rotate1();
 
 });
