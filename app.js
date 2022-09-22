@@ -35,13 +35,17 @@ buttons, addEventListener('click', function name() {
     // used if statment with operators
     if (div > div2) {
         setTimeout(() => {
-            document.querySelector('h1').innerHTML = 'player one win';
+            document.querySelector('h1').innerHTML = 'player  <span>1</span> win';
+            let audio = new Audio('');
+            audio.play();
         }, 2000);
         
     } 
     else if (div < div2) {
         setTimeout(() => {
-            document.querySelector('h1').innerHTML = 'player two win';
+            document.querySelector('h1').innerHTML = 'player  <span>2</span> win';
+            let audio = new Audio('');
+            audio.play();
         }, 2000);
     } 
     else {

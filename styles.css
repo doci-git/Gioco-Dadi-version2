@@ -13,7 +13,8 @@ html {
 }
 
 body {
-  background-color: #393e46;
+  background: rgb(0,17,41);
+  background: radial-gradient(circle, rgba(0,17,41,1) 0%, rgba(3,108,232,1) 100%);
   text-align: center;
   justify-content: center;
   overflow-x: hidden;
@@ -27,27 +28,37 @@ body {
 }
 
 .div1 {
-  padding-top: 10%;
+  padding-top: 8%;
   width: 48vw;
   text-align: center;
   display: inline-block;
 }
 
 h1 {
-  padding-top: 8%;
+  padding-top: 1%;
   margin: 30px;
-  font-family: 'Lobster', cursive;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
   text-shadow: 5px 0 #232931;
   text-transform: capitalize;
   letter-spacing: 2px;
   font-size: 2.5rem;
-  color: #4ECCA3;
+  color: #f1f8f6e0;
 }
 
 p {
   font-size: 2rem;
-  color: #4ECCA3;
+  color: #f1f8f6e0;
   font-family: 'Indie Flower', cursive;
+}
+.p-footer {
+  font-size: 1.5rem;
+  color: #18f3b5;
+  font-family: 'Indie Flower', cursive;
+}
+span{
+  color: gold;
+  letter-spacing: 3px;
+  text-decoration: underline;
 }
 
 img {
@@ -60,11 +71,12 @@ img {
 #btn {
   text-align: center;
   align-items: center;
-  padding: 0.6rem;
-  font-size: large;
+  padding: 2rem;
+  font-size:x-large;
   background-color: #4ECCA3;
+  color:#f1f8f6;
   border: none;
-  border-radius: 10%;
+  border-radius: 50%;
 }
 
 footer,
