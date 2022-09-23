@@ -4,7 +4,7 @@ const buttons = document.getElementById('#btn');
 const number = ['./img/dice1.png', './img/dice2.png', './img/dice3.png', './img/dice4.png', './img/dice5.png', './img/dice6.png', ];
 
 const number2 = ['./img/dice1.png', './img/dice2.png', './img/dice3.png', './img/dice4.png', '.img/dice5.png', '.img/dice6.png', ];
- // created an object with foto to to make some test also
+// created an object with foto to to make some test also
 /*
 done with succes to acces the object same as the array
 const foto = {
@@ -39,16 +39,14 @@ buttons, addEventListener('click', function name() {
             let audio = new Audio('./sounds/win-efect.wav');
             audio.play();
         }, 2000);
-        
-    } 
-    else if (div < div2) {
+
+    } else if (div < div2) {
         setTimeout(() => {
             document.querySelector('h1').innerHTML = 'player  <span>2</span> win';
             let audio = new Audio('./sounds/win-efect.wav');
             audio.play();
         }, 2000);
-    } 
-    else {
+    } else {
         setTimeout(() => {
             document.querySelector('h1').innerHTML = 'Draw';
         }, 2000);
